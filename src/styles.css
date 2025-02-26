@@ -1,0 +1,496 @@
+body {
+    background-color: #6C757D;
+}
+
+.bodycolor {
+    background-color: #8ca2c023;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+
+
+}
+
+.navbar .container-fluid {
+    padding-top: 20px;
+    /* Adjust padding to control height */
+    padding-bottom: 20px;
+    /* Adjust padding to control height */
+}
+
+.navbar-nav p {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #323232;
+
+}
+
+.navbar-nav a {
+
+    color: #6C757D;
+    text-decoration: none;
+}
+
+.profile-name h4 {
+    font-size: 16px;
+    font-family: Poppins;
+    color: #323232;
+    margin-left: 10px;
+}
+
+.profile-name p {
+    font-size: 14px;
+    font-family: Poppins;
+    color: #323232;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.nav-right {
+    align-items: center;
+}
+
+.side-bar {
+    width: 290px !important;
+    height: 100% ; /* Subtract navbar height */
+    position: fixed;
+    top: 80px; /* Match navbar height */
+    left: 0;
+    background: #fff;
+    z-index: 1040; /* Ensure it's below the navbar */
+    border-right: 1px solid #ddd;
+}
+
+.div-logo-img {
+    width: 290px;
+    height: 80px;
+}
+
+.nav-title {
+    margin-left: 0px;
+    font-family: Poppins;
+}
+
+.nav-title h3 {
+    font-size: 18px;
+
+}
+
+.nav-title a {
+    font-size: 12px;
+
+}
+
+.accordion-header {
+    align-items: center;
+    align-content: center;
+
+
+}
+
+
+
+.form-area {
+
+    width: 1582px !important;
+    margin-top: 100px;
+    margin-left: 307px;
+    margin-right: 15px !important;
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+
+}
+
+.form-area::-webkit-scrollbar {
+    display: none;
+}
+
+.form-heading {
+    margin-left: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 1535px;
+
+}
+
+.btngroup {
+    margin-left: auto;
+
+    height: 36px;
+}
+
+.body-scroll {
+    margin-left: 23px;
+}
+
+.heading {
+    font-family: Poppins;
+    font-size: 20px;
+
+    color: #303030;
+
+}
+
+.form-top p {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #303030;
+    margin-top: 6px;
+}
+
+.form-label {
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+
+
+.form-control {
+    font-family: Poppins;
+    font-size: 16px;
+    color: #BABABA;
+    
+}
+
+.form-select {
+    font-family: Poppins;
+    font-size: 16px;
+    color: #BABABA;
+   
+}
+
+
+
+.form-body2-heading {
+    display: flex;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 21px;
+}
+
+
+.form-skills {
+    border: 1px solid rgba(107, 206, 252, 0.596);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.sidebar-menu-img {
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 14px;
+
+}
+
+.accordion-1 {
+    height: 70px;
+}
+
+.accordion-button-text {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #797A7A;
+}
+
+.accordion {
+    width: 290px;
+}
+
+.bi {
+    margin-left: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.list-img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.accordion-body ul {
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Poppins;
+
+}
+
+.fs {
+    font-size: 16px;
+    font-family: poppins;
+
+}
+
+.table {
+    font-family: Poppins;
+    font-size: 16px;
+    background-color: #417ba1 !important;
+    color: #707070;
+
+}
+
+.table-img {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.timer-img {
+    width: 11.45px;
+    height: 11.45px;
+}
+
+.italic {
+    font-family: poppins, italic;
+    font-size: 14px;
+    color: #797A7A;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.img-delete {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+    width: 18.46px;
+    height: 20px;
+
+    display: block;
+
+
+
+
+}
+
+.span-skillset {
+    background-color: rgba(216, 137, 253, 0.212);
+    padding: 5px;
+    color: #A061F7;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 10px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+.decritption {
+
+    word-wrap: break-word;
+}
+
+.div-skill-set {
+    border: 1px solid #A061F780;
+
+    font-size: 12px;
+    border-radius: 50px;
+    color: #797A7A;
+    align-items: center;
+    justify-items: center;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+.heading-table {
+    background-color: #e5eff7 !important;
+    height: 50px;
+    align-items: center;
+    color: #707070;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 550px;
+    padding: 40px;
+}
+
+.offcanvas_size {
+    width: 290px;
+    height: 100%;
+}
+
+.btn-sidebar {
+
+    height: 50px;
+    width: 100px;
+    color: #303030;
+}
+
+.card {
+    max-height: 53rem;
+}
+
+.paging {
+    margin-left: auto;
+    float: inline-end;
+}
+
+.bt-grp {
+    width: 64px !important;
+    height: 23px !important;
+}
+
+.overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 25px !important;
+    height: 25px !important;
+   
+}
+
+.img-hover:hover .overlay {
+    opacity: 1;
+}
+.img-delete-red{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+   
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 5px;
+    
+
+    display: block;
+}
+
+.custom-toggle-img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+}
+
+.navbar-toggler {
+    padding: 5px; /* Reduce padding if needed */
+}
+
+.navbar-toggler:focus {
+    box-shadow: none; /* Removes Bootstrap's default focus outline */
+}
+
+.accordion-button {
+    color: black ; /* Default text color */
+    transition: color 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) .accordion-button-text {
+    color: rgb(0, 4, 255) !important; /* Change to your desired color */
+}
+
+.page-item .page-link{
+    color:black;
+    width:34px !important;
+    height: 34px !important;
+    text-align: center;
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 14px;
+    border: none !important;
+    border-radius: 50px ;
+    background-color: #F4F5F8;
+}
+
+.page-item{
+      
+    border-radius: 50px !important;
+     
+
+}
+.pagination{
+ width:364px ;
+ height:34px ;
+ margin-bottom: 24px !important;
+ margin-top:114px;
+
+  
+}
+
+
+/* pagination  */
+
+
+  
+  body,
+  button {
+    font-family: "Inter", sans-serif;
+    color: #343a40;
+    line-height: 1;
+  }
+  
+  .pagination,
+  .page-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-family: poppins;
+    font-size: 6px;
+   
+    margin-left: auto;
+  }
+  
+  .pagination {
+    margin-top: 128px;
+  }
+  
+  .btn-nav,
+  .btn-page {
+    border-radius: 50%;
+    background-color:#F4F5F8;
+    cursor: pointer;
+
+    
+  }
+  
+  .btn-nav {
+    padding: 8px;
+  }
+  
+  .btn-nav {
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid #0745F9;
+    color: #0745F9;
+  }
+  
+  .btn-nav:hover,
+  .btn-page:hover {
+    background-color: #0745F9;
+    color: #fff;
+  }
+  
+  .btn-page {
+    border: none;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  
+  .btn-selected {
+    background-color: #0745F9;
+    color: #fff;
+  }
